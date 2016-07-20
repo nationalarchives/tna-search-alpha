@@ -1,0 +1,81 @@
+/*
+Theme Name:     TNA-BASE - child theme template
+Theme URI:      http://www.nationalarchives.gov.uk/
+Author:         The National Archives
+Author URI:     http://www.nationalarchives.gov.uk/
+Description:    This should be used when creating new child themes for tna-base
+Template:       tna-base
+Version:        0.1
+License:        GNU General Public License
+License URI:    license.txt
+Text Domain:    tna-base
+*/
+
+/* Add custom CSS here to overwrite parent theme CSS */
+
+
+
+.website-search .col-md-8 .entry-content a {
+    padding:10px;
+    overflow:hidden;
+    display:block;
+}
+
+.website-search .col-md-8 .entry-content a:hover {
+    background: #eee;
+    text-decoration:underline;
+}
+
+.website-search .entry-content a:active, .entry-content a:link, .entry-content a:visited {
+    border-bottom:none;
+
+}
+
+.website-search .col-md-8 .entry-content a p span {
+    background-repeat: no-repeat;
+    background-color:rgba(252,228,92,.66);
+    background-position: bottom left;
+    padding: .24em;
+
+}
+.website-search .col-md-8 .entry-content a p {
+    color:#000;
+}
+.website-search .col-md-8 .entry-content a ul li {
+    width:100%;
+}
+.website-search .banner {
+    margin-top:2em;
+}
+
+#search-all-collections {
+    width:81%;
+}
+#search-all-collections {
+    height:39px;
+}
+
+.ghost-button {
+    border: 1px solid #FFF !important;
+}
+
+.emphasis-block{
+    display: inline-block;
+    background-color: rgba(252,228,92,.5);
+    border-left: 4px solid #fce45c;
+    padding: 1em;
+    font-size: .9em;
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.no-results {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .primary-search-box  h1 {
+        font-size: 2.5em
+    }
+}
