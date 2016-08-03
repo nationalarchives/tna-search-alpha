@@ -7576,7 +7576,7 @@ Text Domain:    tna-base
                         <?php if( strpos($_q,"sha") !== false) {  ?>
                         <div class="entry-header">
                             <h2>
-                                Showing 1 - 15 of about 197 results for <?php echo $_q?>
+                                Showing results for <?php echo $_q?>
                             </h2>
                         </div>
                         <div class="entry-content clearfix">
