@@ -7552,7 +7552,7 @@ Text Domain:    tna-base
                                             </ul>
                                         </div>
                                     </div>
-                                    <div id="main-search-container">
+                                    <div id="main-search-container" style="color:black;">
                                         <input aria-required="true" id="search-all-collections" name="_q"
                                                placeholder="Search our website" required="required" type="text" value="<?php echo $_q; ?>">
                                         <input type="submit" title="Search" value="Search">
