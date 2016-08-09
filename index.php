@@ -136,6 +136,7 @@ Text Domain:    tna-base
 
         #search-all-collections {
             height: 39px;
+            color:black;
         }
 
         .ghost-button {
@@ -7552,7 +7553,7 @@ Text Domain:    tna-base
                                             </ul>
                                         </div>
                                     </div>
-                                    <div id="main-search-container" style="color:black;">
+                                    <div id="main-search-container">
                                         <input aria-required="true" id="search-all-collections" name="_q"
                                                placeholder="Search our website" required="required" type="text" value="<?php echo $_q; ?>">
                                         <input type="submit" title="Search" value="Search">
