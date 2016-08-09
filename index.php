@@ -132,6 +132,7 @@ Text Domain:    tna-base
 
         #search-all-collections {
             width: 81%;
+            color:black;
         }
 
         #search-all-collections {
@@ -7562,7 +7563,7 @@ Text Domain:    tna-base
                             </div>
                         </div>
                         <div class="col-xs-3 text-right call-to-action-button">
-                            <a href=" /#" title="About the future vision" class="button float-right">
+                            <a href="http://discovery.nationalarchives.gov.uk/" title="About the future vision" class="button float-right">
                                 To search our records, go to Discovery </a>
                         </div>
                     </div>
